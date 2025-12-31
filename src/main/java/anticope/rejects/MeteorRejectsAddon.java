@@ -35,6 +35,7 @@ public class MeteorRejectsAddon extends MeteorAddon {
         modules.add(new AntiSpawnpoint());
         modules.add(new AntiVanish());
         modules.add(new ArrowDmg());
+        modules.add(new AutoAntiAntiXray());
         modules.add(new AutoBedTrap());
         modules.add(new AutoCraft());
         modules.add(new AutoExtinguish());
@@ -88,6 +89,8 @@ public class MeteorRejectsAddon extends MeteorAddon {
         Commands.add(new CenterCommand());
         Commands.add(new ClearChatCommand());
         Commands.add(new GhostCommand());
+        Commands.add(new XrayCommand());
+        Commands.add(new ClickCommand());
         Commands.add(new GiveCommand());
         Commands.add(new HeadsCommand());
         Commands.add(new KickCommand());
@@ -101,6 +104,7 @@ public class MeteorRejectsAddon extends MeteorAddon {
         Commands.add(new SetVelocityCommand());
         Commands.add(new TeleportCommand());
         Commands.add(new TerrainExport());
+        Commands.add(new VclipToCommand());
 
         // HUD
         Hud hud = Systems.get(Hud.class);

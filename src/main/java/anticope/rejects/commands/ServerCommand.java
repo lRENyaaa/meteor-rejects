@@ -41,6 +41,7 @@ public class ServerCommand extends Command {
         ports.put(22, "SSH");
         ports.put(80, "HTTP");
         ports.put(443, "HTTPS");
+        ports.put(23333, "MCSM");
         ports.put(25565, "Java Server");
         ports.put(25575, "Java Server RCON");
         ports.put(19132, "Bedrock Server");
